@@ -30,7 +30,7 @@
                 @keyup="update($event, todo)" @blur="cancelUpdate(todo)">
             </td>
             <td class="has-text-right">
-              <button class="button is-small" @click="remove">X</button>
+              <button class="button is-small" @click="remove(todo)">X</button>
             </td>
           </tr>
         </tbody>
